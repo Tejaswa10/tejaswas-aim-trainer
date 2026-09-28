@@ -15,34 +15,53 @@ body{
     margin-top: 200px;
 }
 
-h1{
+.home h1{
     font-size: 60px;
     margin-bottom: -5px;
 }
-h2{
+.home h2{
     font-weight: normal;
     font-size: 40px;
 }
 
-button{
-    display: block;
-    font-family: 'Oxanium';
-    background: #cbdffd;
-    color: black;
-    padding: 15px 30px;
-    margin: 10px auto;
-    margin-bottom:20px;
+.guide{
+    width: 700px;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    background: #c1d8fa;
     border: 2px solid black;
-    border-radius: 12px;
-    font-size: 20px;
-    font-weight: 600;
-    cursor: pointer;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.guide p{
+    font-size: 25px;
 }
 
-button:hover{
-    background: #bbd5fc;
-    color:rgb(255, 255, 255);
+.button {
+    display: block;
+    width: fit-content;
+    padding: 15px 30px;
+    margin: 10px auto 20px;
+    background: #d0e3ff;
+    color: black;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-family: 'Oxanium';
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
     transform: translateY(-5px);
+    background: #bfd7fc;
+    color: white;
 }
