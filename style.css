@@ -65,3 +65,24 @@ body{
     background: #bfd7fc;
     color: white;
 }
+
+.game-area{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+}
+
+.target-zone{
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    background: rgba(255, 0, 0, 0.2);
+
+}
+.target{
+    width: 110px;
+    position: absolute
+}
